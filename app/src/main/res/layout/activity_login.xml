@@ -7,6 +7,7 @@
 
     <TextView
         android:text="Username or Email"
+        android:paddingTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <EditText
