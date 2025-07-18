@@ -1,3 +1,4 @@
+//Student ID: 2023ebcs125
 package com.example.usermanagementapp_2023ebcs125
 
 import android.content.Context
@@ -11,17 +12,14 @@ import com.google.firebase.auth.FirebaseAuth
 
 class WelcomeActivity : AppCompatActivity() {
     private lateinit var sharedPref: SharedPreferences
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome)
-
         sharedPref = getSharedPreferences("UserPrefs", Context.MODE_PRIVATE)
         val username = sharedPref.getString("username", "User")
 
         val welcomeText = findViewById<TextView>(R.id.textViewWelcome)
         val logoutButton = findViewById<Button>(R.id.buttonLogout)
-
         welcomeText.text = "Welcome, $username!"
 
         logoutButton.setOnClickListener {
@@ -35,5 +33,4 @@ class WelcomeActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-    }
-}
+    } }
