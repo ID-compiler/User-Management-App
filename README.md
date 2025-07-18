@@ -1,6 +1,6 @@
 # UserManagementApp
 
-**UserManagementApp** is an Android application built as part of the **Android Development assignment for the BITS Pilani **. It demonstrates core mobile development skills such as admin panel, user authentication, data persistence, Firebase backend integration, and background services.
+**UserManagementApp** is an Android application built as part of the **Android Development assignment for the BITS Pilani**. It demonstrates core mobile development skills such as admin panel, user authentication, data persistence, Firebase backend integration, and background services.
 
 ---
 
